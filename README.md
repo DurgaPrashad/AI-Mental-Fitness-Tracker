@@ -24,23 +24,16 @@ The project utilizes two merged datasets:
 
 ## Data Visualization
 
+The project includes comprehensive data visualizations:
+
 ### Correlation Analysis
-![Correlation Heatmap](images/correlation_heatmap.png)
-*Correlation heatmap showing relationships between mental health variables*
+- **Heatmap**: Correlation matrix showing relationships between mental health variables
+- **Pairplot**: Pairwise relationships and distributions in the dataset
 
-### Data Relationships
-![Pairplot Analysis](images/pairplot.png)
-*Pairwise relationships in the mental health dataset*
-
-### Temporal Trends
-![Year-wise Analysis](images/yearwise_bar_chart.png)
-*Year-wise variations in mental fitness across different countries*
-
-![Trend Lines](images/trend_lines.png)
-*Country-specific mental health trends over time*
-
-![Distribution](images/pie_chart.png)
-*Distribution of mental health data across years*
+### Temporal Analysis  
+- **Bar Charts**: Year-wise variations in mental fitness across different countries
+- **Line Plots**: Country-specific mental health trends over time
+- **Pie Charts**: Distribution of mental health data across years
 
 ## Machine Learning Models
 
@@ -61,8 +54,7 @@ The project utilizes two merged datasets:
 
 ### Model Performance Comparison
 
-![Model Performance](images/model_comparison.png)
-*Predicted vs Actual values comparison across all regression models*
+The project evaluates 12 different regression algorithms using comprehensive scatter plots comparing predicted vs actual values for each model. All models are visualized with diagonal reference lines to assess prediction accuracy.
 
 ## Results
 
@@ -169,10 +161,6 @@ AI-Mental-Fitness-Tracker/
 │   └── prevalence-by-mental-and-substance-use-disorder.csv
 ├── notebooks/
 │   └── AI_Mental_Fitness_Tracker.ipynb
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── model_comparison.png
-│   └── trend_analysis.png
 └── README.md
 ```
 
